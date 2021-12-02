@@ -8,7 +8,7 @@ def readLines():
     return numbers
 
 
-def s1():
+def part1():
     report = readLines()
     previous = None
     increases = 0
@@ -21,7 +21,7 @@ def s1():
     print('Solution 1:', increases)
 
 
-def s2():
+def part2():
     report = readLines()
     previous = None
     increases = 0
@@ -37,8 +37,8 @@ def s2():
 
 
 def main():
-    s1()
-    s2()
+    part1()
+    part2()
 
 
 if __name__ == '__main__':
