@@ -35,7 +35,7 @@ def part2():
 	for (dir, n) in x:
 		if dir == 'forward':
 			hor_pos += n
-			depth += aim n
+			depth += aim * n
 		elif dir == 'up':
 			aim -= n
 		elif dir == 'down':
