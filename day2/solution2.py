@@ -1,3 +1,7 @@
+import os
+
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
+
 def readlines():
 	x = []
 	with open('input2.txt') as file:
