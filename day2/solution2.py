@@ -12,7 +12,8 @@ def readlines():
 		x = tuple(x)
 	return x
 
-def part1(x):
+def part1():
+	x = readlines()
 	depth = 0
 	hor_pos = 0
 
@@ -23,9 +24,10 @@ def part1(x):
 			depth -= n
 		elif dir == 'down':
 			depth += n
-	return hor_pos*depth
+	return print('Part1 Answer: ', hor_pos*depth)
 
-def part2(x):
+def part2():
+	x = readlines()
 	depth = 0
 	hor_pos = 0
 	aim = 0
@@ -38,11 +40,11 @@ def part2(x):
 			aim -= n
 		elif dir == 'down':
 			aim += n
-	return hor_pos*depth
+	return print('Part2 Answer: ', hor_pos*depth)
 
 def main():
-    print(part1(readlines()))
-    print(part2(readlines()))
+    part1()
+    part2()
 
 
 if __name__ == '__main__':

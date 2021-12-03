@@ -22,7 +22,7 @@ def part1():
             increases += 1
         previous = depth
 
-    print('Solution 1:', increases)
+    return print('Part1 Answer: ', increases)
 
 
 def part2():
@@ -37,7 +37,7 @@ def part2():
             increases += 1
         previous = total
 
-    print('Solution 2:', increases)
+    return print('Part2 Answer: ', increases)
 
 
 def main():
