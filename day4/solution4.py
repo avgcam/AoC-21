@@ -12,8 +12,8 @@ def part1(x):
     rand_num = []
     boards = []
     board_num = 0
-    boardData = {}
-    boardLength = None
+    board_data = {}
+    board_len = None
 
     for line in x:
         if len(rand_num) == 0:
@@ -25,8 +25,8 @@ def part1(x):
             if len(line.strip()) == 0:
                 board_num += 1
                 continue
-            if boardLength is None:
-                boardLength = len([i for i in line.split()])
+            if board_len is None:
+                board_len = len([i for i in line.split()])
 
             if board_num == len(boards):
                 boards.append([])
@@ -74,8 +74,8 @@ def part2(x):
     rand_num = []
     boards = []
     board_num = 0
-    boardData = {}
-    boardLength = None
+    board_data = {}
+    board_len = None
 
     for line in x:
         if len(rand_num) == 0:
@@ -87,8 +87,8 @@ def part2(x):
             if len(line.strip()) == 0:
                 board_num += 1
                 continue
-            if boardLength is None:
-                boardLength = len([i for i in line.split()])
+            if board_len is None:
+                board_len = len([i for i in line.split()])
 
             if board_num == len(boards):
                 boards.append([])
