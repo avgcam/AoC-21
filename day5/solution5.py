@@ -1,20 +1,8 @@
-import time
 from collections import defaultdict
 import os
 
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
-def profiler(method):
-    def wrapper_method(*arg, **kw):
-        t = time.time()
-        ret = method(*arg, **kw)
-        print('Method ' + method.__name__ + ' took : ' +
-              "{:2.5f}".format(time.time()-t) + ' sec')
-        return ret
-    return wrapper_method
-
-
-@profiler
 def part1():
     cnt = defaultdict(int)
 
@@ -30,10 +18,8 @@ def part1():
             for x in range(min((p1[0], p2[0])), max((p1[0], p2[0])) + 1):
                 cnt[(x, p1[1])] += 1
 
-    print("part 1 : ", sum([1 for i in cnt if cnt[i] > 1]))
+    print("Part1 Answer: ", sum([1 for i in cnt if cnt[i] > 1]))
 
-
-@profiler
 def part2():
     cnt = defaultdict(int)
 
@@ -57,8 +43,7 @@ def part2():
             for x, y in zip(xs, ys):
                 cnt[(x, y)] += 1
 
-    print("part 2 : ", sum([1 for i in cnt if cnt[i] > 1]))
-
+    print("Part2 Answer: ", sum([1 for i in cnt if cnt[i] > 1]))
 
 if __name__ == "__main__":
     part1()
