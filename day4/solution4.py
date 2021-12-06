@@ -2,12 +2,6 @@ import os
 
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
-def main():
-    with open('input4.txt') as x:
-        print("Part1 Answer: ", part1(x))
-    with open('input4.txt') as x:
-        print("Part2 Answer: ", part2(x))
-
 def part1(x):
     rand_num = []
     boards = []
@@ -119,6 +113,11 @@ def part2(x):
             bingo_sum += num[0] if num[1]==0 else 0
     return bingo_sum * bingo_num
 
+def main():
+    with open('input4.txt') as x:
+        print("Part1 Answer: ", part1(x))
+    with open('input4.txt') as x:
+        print("Part2 Answer: ", part2(x))
 
 if __name__=='__main__':
     main()
