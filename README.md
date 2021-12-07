@@ -9,16 +9,16 @@
 *https://adventofcode.com/2021*
 
 Day | Part 1 | Part 2
---- | :-: | :-:
-1 | :star: | :star:
-2 | :star: | :star:
-3 | :star: | :star:
-4 | :star: | :star:
-5 | :star: | :star:
-6 | :star: | :star:
-7 | :star: | :star:
-8 | |
-9 | |
+:-: | :-: | :-:
+01 | :star: | :star:
+02 | :star: | :star:
+03 | :star: | :star:
+04 | :star: | :star:
+05 | :star: | :star:
+06 | :star: | :star:
+07 | :star: | :star:
+08 | |
+09 | |
 10 | |
 11 | |
 12 | |
