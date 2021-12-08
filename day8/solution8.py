@@ -68,7 +68,6 @@ def part2():
 	
 	return print("Part2 Answer: ", count)
 
-
 if __name__ == "__main__":
 	part1()
 	part2()
