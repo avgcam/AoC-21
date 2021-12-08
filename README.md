@@ -17,7 +17,7 @@ Day | Part 1 | Part 2
 05 | :star: | :star:
 06 | :star: | :star:
 07 | :star: | :star:
-08 | |
+08 | :star: | :star:
 09 | |
 10 | |
 11 | |
