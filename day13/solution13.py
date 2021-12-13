@@ -1,21 +1,11 @@
-import time
+import os
 
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
-def profiler(method):
-    def wrapper_method(*arg, **kw):
-        t = time.time()
-        ret = method(*arg, **kw)
-        print('Method ' + method.__name__ + ' took : ' +
-              "{:2.5f}".format(time.time()-t) + ' sec')
-        return ret
-    return wrapper_method
-
-
-@profiler
 def part1():
     dots = set()
     fold = []
-    for l in open("day13/input.txt"):
+    for l in open("input13.txt"):
         if "," in l:
             dots.add(tuple(map(int, l.strip().split(','))))
         elif 'fold' in l:
@@ -39,15 +29,13 @@ def part1():
 
         dots = new_dots
 
-        print(len(dots))
+        return print('Part1 Answer: ', len(dots))
         break
 
-
-@profiler
 def part2():
     dots = set()
     fold = []
-    for l in open("day13/input.txt"):
+    for l in open("input13.txt"):
         if "," in l:
             dots.add(tuple(map(int, l.strip().split(','))))
         elif 'fold' in l:
@@ -81,9 +69,8 @@ def part2():
             else:
                 print(" ", end="")
         print()
-
+    return print('^ DECIPHER THE 8 LETTER OUTPUT ^')
 
 if __name__ == "__main__":
-
     part1()
     part2()
