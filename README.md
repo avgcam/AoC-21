@@ -23,7 +23,7 @@ Day | Part 1 | Part 2
 11 | :star: | :star:
 12 | :star: | :star:
 13 | :star: | :star:
-14 | |
+14 | :star: | :star:
 15 | |
 16 | |
 17 | |
