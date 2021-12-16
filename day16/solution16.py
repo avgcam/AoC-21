@@ -3,7 +3,8 @@ import os
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 def load_data():
-	None
+	file = open('sample16.txt').read().strip()
+	return file
 
 def part1():
 	None
