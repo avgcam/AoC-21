@@ -60,9 +60,6 @@ def parse(data):
 		return int(spv[0] == spv[1])
 p2 = parse([data])
 
-print(SoV)
-print(p2)
-
-# if __name__ == "__main__":
-# 	part1()
-# 	part2()
+if __name__ == "__main__":
+	print('Part1 Answer: ', SoV)
+	print('Part2 Answer: ', p2)
