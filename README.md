@@ -28,7 +28,7 @@ Day | Part 1 | Part 2
 16 | :star: | :star:
 17 | :star: | :star:
 18 | :star: | :star:
-19 | |
+19 | :star: | :star:
 20 | |
 21 | |
 22 | |
