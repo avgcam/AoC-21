@@ -35,4 +35,4 @@ Day | Part 1 | Part 2
 23 | |
 24 | |
 25 | |
-# MERRY CHRISTMAS :santa:
+# MERRY CHRYSLER :santa:
