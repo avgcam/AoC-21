@@ -36,3 +36,4 @@ Day | Part 1 | Part 2
 24 | |
 25 | |
 # MERRY CHRYSLER :santa:
+![merrychrysler](https://giphy.com/gifs/merry-chrysler-3o6fITL72BZG42j37W)
