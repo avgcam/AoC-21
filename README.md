@@ -32,7 +32,7 @@ Day | Part 1 | Part 2
 20 | :star: | :star:
 21 | :star: | :star:
 22 | :star: | :star:
-23 | |
+23 | :star: | :star:
 24 | |
 25 | |
 # MERRY CHRYSLER :santa:
