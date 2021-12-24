@@ -1,7 +1,4 @@
-import os
 import heapq as hq
-
-os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 ROOMS = {
     "A": 2,
